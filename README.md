@@ -18,7 +18,7 @@ const ParseCsv = require( "../parse-csv.js" );
 const csv = 'A1,B1,C1\n"A ""2""","B, 2","C\n2"';
 const separator = ',';      // field separator, default: ','
 const newline = ' <br /> '; // newline representation in case a field contains newlines, default: '\n' 
-var grid = ParseCsv.parseCsv(data, separator, newline);
+var grid = ParseCsv.parseCsv(csv, separator, newline);
 // expected: [ [ 'A1', 'B1', 'C1' ], [ 'A "2"', 'B, 2', 'C <br /> 2' ] ]
 ```
 
