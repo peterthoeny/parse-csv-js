@@ -1,11 +1,11 @@
 {
     "name": "parse-csv-js",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Parse CSV/TSV data, and return a grid (array of arrays)",
     "author": "Peter Thoeny",
     "license": "MIT",
     "homepage": "https://github.com/peterthoeny/parse-csv-js/",
-    "main": "word-to-num.js",
+    "main": "parse-csv.js",
     "scripts": {
     },
     "repository": {
@@ -20,4 +20,3 @@
     "dependencies": {
     }
 }
-
